@@ -43,11 +43,11 @@ Note that the simulations were run on a computational cluster.
 
 --------------------------------------------------------------------------------------------------------------------------------------
 
-Tomas Rubin
-EPFL SB MATHAA SMAT
-MA B1 493 (Batiment MA)
-Station 8
-CH-1015 Lausanne
+Tomas Rubin  
+EPFL SB MATHAA SMAT  
+MA B1 493 (Batiment MA)  
+Station 8  
+CH-1015 Lausanne  
 Switzerland
 
 Email: tomas.rubin@epfl.ch
