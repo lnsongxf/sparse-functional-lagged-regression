@@ -1,6 +1,7 @@
 Functional Lagged Regression with Sparse Noisy Observations
 ===========================================================
 Tomas Rubin, Victor M. Panaretos
+
 https://arxiv.org/abs/1905.07218
 
 A. CONTENTS
