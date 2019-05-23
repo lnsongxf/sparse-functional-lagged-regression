@@ -39,6 +39,10 @@ The simulation requires the package 'fdaM' (https://www.psych.mcgill.ca/misc/fda
 
 Note that the simulations were run on a computational cluster.
 
+C. USAGE
+--------
+
+Individuals are free to use the codes for the purpose academic research, provided it is properly acknowledged. For any other use, permission must first be arranged with the author(s). Unless otherwise specified, the author of the codes is Tomas Rubin. Please contact me if you find errors in the codes. 
 
 
 --------------------------------------------------------------------------------------------------------------------------------------
