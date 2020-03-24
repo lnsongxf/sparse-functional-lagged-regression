@@ -1,35 +1,28 @@
 Functional Lagged Regression with Sparse Noisy Observations
 ===========================================================
-Tomas Rubin, Victor M. Panaretos
 
-https://arxiv.org/abs/1905.07218
+Supporting material for the paper:
+	Rubin, T. & Panaretos, V. M. (2019). Functional Lagged Regression with Sparse Noisy Observations. https://arxiv.org/abs/1905.07218.
+
 
 A. CONTENTS
 -----------
 
-This folder contains the following 5 folders:
-1. results
-2. script - exp covariance, fully functional
-3. script - exp covariance, sparse
-4. script - nrq covariance, fully functional
-5. script - nrq covariance, sparse
+This repository represents the code used for the methodology presented by Rubin and Panaretos (2019) for the treatment of the functional lagged regression problem where the input regressor time series is a sparsely and irregularly observed functional time series. The code is organised in the following way
 
-The folders 2.-5. contain script for simulating the considered functional time series processes, applying the sparse observation protocol, and the subsequent estimation and prediction methodology. Each of these 4 folders contains a script 'launcher_x.m' where x=1,2,3,4. Running this script requires a random seed, for which we use the job_id number assign by the computational cluster. The script 'launcher_x.m' calls one simulation run for each of the considered simulation settings (sample size parameters N^max and T, the dynamics of the simulated processes, the lagged regression design). The script creates CSV files with the results of each simulation run (see below).
+master
+	This folder includes all the functions used for the simulation, estimation, prediction, and regression treatments of sparsely observed functional time series. The functions saved in this folder are called from the other two folders as well as from the demo file.
 
-The 1. folder 'results' contains 8 csv files that have been transfered from the folders 2.-5. after running each laucher file 200 times (on a computational cluster):
-- exp_sim_complete_threshold.csv
-- exp_sim_complete_tikhonov.csv
-- exp_sim_threshold_value.csv
-- exp_sim_tikhonov.csv
-- nrq_sim_complete_threshold.csv
-- nrq_sim_complete_tikhonov.csv
-- nrq_sim_tikhonov.csv
-- nrq_sim_threshold_value.csv
-The files:
-- exp_analyse_csv_tables.m
-- nrq_analyse_csv_tables.m
+simulation_study
+	The code in this folder was used as the foundation for the simulation study presented in Rubin and Panaretos (2019).
 
-involve a script to go through the results in the CSV files and calculate the mean prediction/estimation errors. The scripts call 'prepare_simulation_cases.m' where the mapping from the 'iCase' variable to the sample size variables (N^max and T) is defined. Each of the two scripts 'exp_analyse_csv_tables.m', 'nrq_analyse_csv_tables.m' outputs matrices of outputs to be parse into 'LaTeX tables.xlsx' which prepares the LaTeX code used in the paper.
+Wank_analysis
+	The code in this folder was used for the analysis of the meteorological data at the Wank mountain as presented in Rubin and Panaretos (2019).
+
+demo.m
+	This script presents a demonstration on how to use the repository. It simulates a sparsely observed functional time series as well as a response time series. The script estimates the spectral density, the cross-spectral density, and the filter coefficients, and performs the prediction of the response time series. All estimates are plotted by the MATLAB plot functions. Refer to the comments in this script for details on individual steps.
+	
+	
 
 B. REQUIREMENTS
 ---------------
@@ -42,17 +35,35 @@ Note that the simulations were run on a computational cluster.
 C. USAGE
 --------
 
-Individuals are free to use the codes for the purpose academic research, provided it is properly acknowledged. For any other use, permission must first be arranged with the author(s). Unless otherwise specified, the author of the codes is Tomas Rubin. Please contact me if you find errors in the codes. 
+Individuals are free to use the codes for the purpose academic research, provided it is properly acknowledged. For any other use, permission must first be arranged with the author(s). Unless otherwise specified, the author of the codes is Tomas Rubin (tomas.rubin@gmail.com). Please contact me if you find errors in the codes.
 
 
---------------------------------------------------------------------------------------------------------------------------------------
+D. CONTACTS
+------------------
+Tomas Rubin
 
-Tomas Rubin  
-EPFL SB MATHAA SMAT  
-MA B1 493 (Batiment MA)  
-Station 8  
-CH-1015 Lausanne  
-Switzerland
+tomas.rubin@gmail.com
 
-Email: tomas.rubin@epfl.ch
+https://www.linkedin.com/in/tomas-rubin/
+
+https://github.com/tomasrubin
+
+
+E. REFERENCES
+----------------
+
+Principal reference:
+	
+	Tomas Rubin and Victor Panaretos (2019). Functional Lagged Regression with Sparse Noisy Observations. arXiv:1905.07218.
+	
+	https://arxiv.org/abs/1905.07218
+	
+
+The possibilities how to reference the code:
+
+	DOI 10.5281/zenodo.3190740.
+
+	github.com/tomasrubin/sparse-functional-lagged-regression
+	
+	Tomas Rubin and Victor M. Panaretos. Github repository: Functional lagged regression with sparse noisy observations. http://doi.org/10.5281/zenodo.3190741, 2019
 
