@@ -10,16 +10,16 @@ A. CONTENTS
 
 This repository represents the code used for the methodology presented by Rubin and Panaretos (2019) for the treatment of the functional lagged regression problem where the input regressor time series is a sparsely and irregularly observed functional time series. The code is organised in the following way
 
-master
+- **master**
 	This folder includes all the functions used for the simulation, estimation, prediction, and regression treatments of sparsely observed functional time series. The functions saved in this folder are called from the other two folders as well as from the demo file.
 
-simulation_study
+- **simulation_study**
 	The code in this folder was used as the foundation for the simulation study presented in Rubin and Panaretos (2019).
 
-Wank_analysis
+- **Wank_analysis**
 	The code in this folder was used for the analysis of the meteorological data at the Wank mountain as presented in Rubin and Panaretos (2019).
 
-demo.m
+- **demo.m**
 	This script presents a demonstration on how to use the repository. It simulates a sparsely observed functional time series as well as a response time series. The script estimates the spectral density, the cross-spectral density, and the filter coefficients, and performs the prediction of the response time series. All estimates are plotted by the MATLAB plot functions. Refer to the comments in this script for details on individual steps.
 	
 	
