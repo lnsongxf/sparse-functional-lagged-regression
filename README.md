@@ -59,7 +59,12 @@ Principal reference:
 	https://arxiv.org/abs/1905.07218
 	
 
-The GitHub address of the code:
+How to cite the code:
+
+	DOI 10.5281/zenodo.3190740.
 
 	https://github.com/tomasrubin/sparse-functional-lagged-regression
+	
+	Tomas Rubin and Victor M. Panaretos. Github repository: Functional lagged regression with
+sparse noisy observations. https://doi.org/10.5281/zenodo.3190740, 2019.
 

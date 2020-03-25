@@ -15,7 +15,7 @@ Principal references:
    Rubin, T. & Panaretos, V. M. (2019). Functional Lagged Regression with Sparse Noisy Observations. arXiv:1905.07218.
 
 Link for GitHub repository via DOI:
-   http://doi.org/10.5281/zenodo.3190741
+   https://doi.org/10.5281/zenodo.3190740
 
 Code developed on: MATLAB R2018a
 
