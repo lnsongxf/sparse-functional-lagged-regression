@@ -2,7 +2,9 @@ Functional Lagged Regression with Sparse Noisy Observations
 ===========================================================
 
 Supporting material for the paper:
-	**Rubin, T. & Panaretos, V. M.** (2020). *Functional Lagged Regression with Sparse Noisy Observations.* https://onlinelibrary.wiley.com/doi/abs/10.1111/jtsa.12551.
+	**Rubín, Tomáš, and Victor M. Panaretos.** *"Functional lagged regression with sparse noisy observations."* Journal of Time Series Analysis 41.6 (2020): 858-882.
+	
+	https://onlinelibrary.wiley.com/doi/abs/10.1111/jtsa.12551.
 
 
 A. CONTENTS
@@ -56,7 +58,7 @@ E. REFERENCES
 
 Principal reference:
 	
-	Tomas Rubin and Victor Panaretos (2020). Functional Lagged Regression with Sparse Noisy Observations. Journal of Time Series Analysis (to appear).
+	**Rubín, Tomáš, and Victor M. Panaretos.** *"Functional lagged regression with sparse noisy observations."* Journal of Time Series Analysis 41.6 (2020): 858-882.
 	
 	https://onlinelibrary.wiley.com/doi/abs/10.1111/jtsa.12551
 			
